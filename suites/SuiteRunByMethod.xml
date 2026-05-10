@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteRunByMethod" verbose="1">
+    <test name="FirstTest">
+        <classes>
+            <class name="com.linhtest.firstpackage.FirstClass">
+                <methods>
+                    <include name="firstTest"/>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+            <class name="com.linhtest.firstpackage.SecondClass">
+                <methods>
+                    <include name="firstTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

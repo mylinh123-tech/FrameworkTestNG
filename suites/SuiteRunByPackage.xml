@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteRunByPackage" verbose="1">
+    <test name="FirstTest">
+        <packages>
+            <package name="com.linhtest.firstpackage"/>
+            <package name="com.linhtest.firstpackage.childpackage"/>
+            <package name="com.linhtest.secondpackage"/>
+            <package name="com.linhtest.thirdpackage"/>
+        </packages>
+    </test>
+</suite>
