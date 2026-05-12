@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-12T13:43:54 GMT+07:00" name="Regression Test Customer" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="17">
+    <groups>
+      <group name="regression">
+        <method signature="FirstClass.firstTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" name="firstTest" class="com.linhtest.firstpackage.FirstClass"/>
+        <method signature="FirstClass.fourthTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" name="fourthTest" class="com.linhtest.firstpackage.FirstClass"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="FirstClass.firstTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" name="firstTest" class="com.linhtest.firstpackage.FirstClass"/>
+        <method signature="FirstClass.fourthTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" name="fourthTest" class="com.linhtest.firstpackage.FirstClass"/>
+        <method signature="FirstClass.thirdTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" name="thirdTest" class="com.linhtest.firstpackage.FirstClass"/>
+        <method signature="SecondClass.firstTest()[pri:0, instance:com.linhtest.firstpackage.SecondClass@1a0dcaa]" name="firstTest" class="com.linhtest.firstpackage.SecondClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-05-12T13:43:54 GMT+07:00" name="AddNewCustomer" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="17">
+      <class name="com.linhtest.firstpackage.FirstClass">
+        <test-method signature="firstTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" started-at="2026-05-12T13:43:54 GMT+07:00" name="firstTest" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="fourthTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" started-at="2026-05-12T13:43:54 GMT+07:00" name="fourthTest" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method signature="thirdTest()[pri:0, instance:com.linhtest.firstpackage.FirstClass@45dd4eda]" started-at="2026-05-12T13:43:54 GMT+07:00" name="thirdTest" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- com.linhtest.firstpackage.FirstClass -->
+      <class name="com.linhtest.firstpackage.SecondClass">
+        <test-method signature="firstTest()[pri:0, instance:com.linhtest.firstpackage.SecondClass@1a0dcaa]" started-at="2026-05-12T13:43:54 GMT+07:00" name="firstTest" finished-at="2026-05-12T13:43:54 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- com.linhtest.firstpackage.SecondClass -->
+    </test> <!-- AddNewCustomer -->
+  </suite> <!-- Regression Test Customer -->
+</testng-results>

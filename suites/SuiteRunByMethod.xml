@@ -9,7 +9,7 @@
                     <include name="secondTest"/>
                 </methods>
             </class>
-            <class name="com.linhtest.firstpackage.SecondClass">
+            <class name="com.linhtest.firstpackage.mvnSecondClass">
                 <methods>
                     <include name="firstTest"/>
                 </methods>

@@ -47,7 +47,7 @@
                 <version>3.5.4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>suites/SuiteAll.xml</suiteXmlFile>
+                        <suiteXmlFile>suites/SuiteRunByGroup.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
