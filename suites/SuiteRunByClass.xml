@@ -4,13 +4,13 @@
     <test name="AddNewCustomer">
         <classes>
             <class name="com.linhtest.firstpackage.FirstClass"></class>
-            <class name="com.linhtest.firstpackage.mvnSecondClass"></class>
+            <class name="com.linhtest.firstpackage.SecondClass"></class>
         </classes>
     </test>
     <test name="SearchCustomer">
         <classes>
             <class name="com.linhtest.firstpackage.FirstClass"/>
-            <class name="com.linhtest.firstpackage.mvnSecondClass"/>
+            <class name="com.linhtest.firstpackage.SecondClass"/>
         </classes>
     </test>
 </suite>

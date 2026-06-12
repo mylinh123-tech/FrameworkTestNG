@@ -2,9 +2,23 @@ package com.linhtest.firstpackage;
 
 import java.time.LocalDateTime;
 
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
 public class FirstClass {
+
+
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("Before class: Chay truoc tat ca test trong class");
+    }
+
+    @BeforeGroups({"smoke","regression"} )
+    public void beforeGroup(){
+        System.out.println("Before group: Chay truoc khi run test thuoc group");
+    }
+
     @Test(groups = {"smoke", "regression"})
     public void firstTest() {
         System.out.println("First test method");
@@ -23,7 +37,7 @@ public class FirstClass {
         System.out.println("Third test method");
     }
 
-    @Test(groups = {"smoke", "regression"})
+    @Test(groups = "regression")
     public void fourthTest() {
         System.out.println("Fourth test method");
     }
